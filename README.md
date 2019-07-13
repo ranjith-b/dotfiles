@@ -1,2 +1,2 @@
 # dotfiles
- My dotfiles for OSX
+My dotfiles and personal preferences
