@@ -7,6 +7,6 @@
 
 @[CoreyMSchafer](https://github.com/CoreyMSchafer/dotfiles)
 
-@ Ever Individual who contributes to open Source !!
+@ Every Individual who contributes to open Source !
 
 :heart: **Opensource**
