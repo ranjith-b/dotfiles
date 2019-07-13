@@ -1,5 +1,5 @@
 # ranjith's dotfiles
-![Terminal](Screenshots/Monokai.png)
+![](images/terminal.png)
 
 **Thanks to :**
 
