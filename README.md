@@ -1,8 +1,8 @@
 # ranjith's dotfiles
-[alt terminal](images/terminal.png)
-
+![](Screenshots/Monokai.png)
 
 **Thanks to :**
+
 @[mathiasbynens](https://github.com/mathiasbynens/dotfiles)
 
 @[CoreyMSchafer](https://github.com/CoreyMSchafer/dotfiles)
