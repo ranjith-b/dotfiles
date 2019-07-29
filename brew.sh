@@ -16,6 +16,7 @@ brew install wget
 brew install youtube-dl
 brew install bash-completion
 brew install vim
+brew install speedtest-cli
 # Install MacOS Applications
 brew cask install google-chrome
 brew cask install firefox
