@@ -1,9 +1,14 @@
 # Shortcuts
 alias ch='history | grep "git commit"'
 alias hg='history | grep'
-alias yt='subl ~/Google\ Drive/YouTube/Scripts/'
-alias cyt='cd ~/Google\ Drive/YouTube/Scripts/'
-alias oyt='open ~/Google\ Drive/YouTube/Scripts/'
+alias o="cd ~/Onedrive"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/projects"
+alias g="git"
+
+# Get week number
+alias week='date +%V'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -32,7 +37,7 @@ alias egrep='egrep --color=auto'
 alias sudo='sudo '
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update_system='sudo softwareupdate -i -a'
+alias update='sudo softwareupdate -i -a;brew update; brew upgrade; brew cleanup'
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
