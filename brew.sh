@@ -15,12 +15,12 @@ brew install htop
 brew install wget
 brew install youtube-dl
 brew install bash-completion
-brew install macvim
+#brew install macvim
 brew install speedtest-cli
 # Install MacOS Applications
 brew cask install google-chrome
 brew cask install firefox
-brew cask install virtualbox
+#brew cask install virtualbox
 brew cask install skype
 #brew cask install gimp
 #brew cask install vlc
@@ -28,16 +28,15 @@ brew cask install whatsapp
 brew cask install calibre
 #brew cask install texmaker
 brew cask install atom
-brew cask install dropbox
+#brew cask install dropbox
 brew cask install iterm2
 brew cask install visual-studio-code
-brew cask install pycharm-ce
+#brew cask install pycharm-ce
 brew cask install spectacle
 brew cask install kindle
 brew cask install texstudio
 brew cask install github
 brew cask install alfred
-brew cask install mactex
 #brew cask install zotero
 #brew cask install onedrive
 brew cask install teamviewer
@@ -55,3 +54,16 @@ brew cask install mactex
 
 #Notes:lipika keyboard for telugu
 #vanilla
+
+# added on 09-03-2020
+brew install yarn
+brew install tmux
+brew install node
+brew install asciinema
+brew install gnuplot
+
+
+
+brew cask install docker
+brew cask install font-hack-nerd-font
+brew cask install fugu
