@@ -41,7 +41,7 @@ brew cask install alfred
 #brew cask install onedrive
 brew cask install teamviewer
 brew cask install anaconda
-brew cask install mactex
+brew cask install mactex-no-gui
 #brew cask install sourcetree
 #brew cask install spotify
 #brew cask install discord
