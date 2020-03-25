@@ -35,12 +35,12 @@ brew cask install visual-studio-code
 brew cask install spectacle
 brew cask install kindle
 brew cask install texstudio
-brew cask install github
+#brew cask install github
 brew cask install alfred
 #brew cask install zotero
 #brew cask install onedrive
 brew cask install teamviewer
-brew cask install anaconda
+#brew cask install anaconda
 brew cask install mactex-no-gui
 #brew cask install sourcetree
 #brew cask install spotify
@@ -61,9 +61,8 @@ brew install tmux
 brew install node
 brew install asciinema
 brew install gnuplot
-
-
-
 brew cask install docker
 brew cask install font-hack-nerd-font
 brew cask install fugu
+brew cask install android-studio
+brew cask install zoomus
