@@ -6,7 +6,8 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
-
+alias gt="cd ~/Github"
+alias pg="cd ~/Programming"
 # Get week number
 alias week='date +%V'
 
