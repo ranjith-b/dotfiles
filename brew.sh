@@ -66,3 +66,11 @@ brew cask install font-hack-nerd-font
 brew cask install fugu
 brew cask install android-studio
 brew cask install zoomus
+brew cask install ghdl
+brew cask install gtkwave
+brew install xquartz
+brew install fugu
+brew install ctags
+brew install bat
+
+
