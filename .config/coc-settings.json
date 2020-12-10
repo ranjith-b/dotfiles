@@ -8,14 +8,31 @@
     "yaml",
     "typescript",
     "json",
-    "python"
+    "python",
+    ".vue",
+    "scss"
   ],
 
-  // python config
+  //python config
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
 
-  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/vim/utils/snips"],
+  "eslint.autoFixOnSave": true,
+  "eslint.autoFix": true,
+  "prettier.eslintIntegration": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
 
-  "eslint.filetypes": ["javascript", "javascriptreact", "typescript"]
+  "vetur.useWorkspaceDependencies": true,
+  "vetur.format.enable": true,
+
+  //"python.linting.pylintEnabled": true,
+
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue"
+  ]
 }

@@ -39,7 +39,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "install bat via brew for syntax highlighing in files preview
 
-
 Plug 'morhetz/gruvbox'
 " Color scheme
 
@@ -76,6 +75,18 @@ Plug 'jparise/vim-graphql', {'for': ['graphql', 'javascript', 'typescript']}
 "
 Plug 'jxnblk/vim-mdx-js', {'for': ['markdown', 'markdown.mdx']}
 "mdx for vim
+
+Plug 'pangloss/vim-javascript'    
+" JavaScript support
+
+Plug 'leafgarland/typescript-vim' 
+" TypeScript syntax
+
+Plug 'maxmellon/vim-jsx-pretty'   
+" JS and JSX syntax
+
+Plug 'jparise/vim-graphql'        
+" GraphQL syntax
 
 call plug#end()
 
@@ -238,8 +249,6 @@ set backspace=2
 set linebreak 
 set tw=72
 set termguicolors
-"set textwidth=72 set colorcolumn=72 :autocmd VimResized * | set columns=72
-"set formatoptions+=a set nolist set showbreak=> 
 "---------END:"SETTINGS---------------------
 
 
@@ -251,9 +260,6 @@ imap <C-j> <C-w>j
 imap <C-k> <C-w>k
 imap <C-l> <C-w>l
 "basic key mappings
-
-
-
 
 nnoremap <SPACE> <Nop>
 let mapleader =" "
@@ -278,7 +284,6 @@ xnoremap J :move '>+1<CR>gv-gv
 " Move selected line / block of text in visual mode
   " shift + k to move up
   " shift + j to move down
-
 
 nmap tp :tabedit %<CR>
 nmap tc :tabclose<CR>
@@ -547,14 +552,13 @@ let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-tsserver',
-  \ 'coc-tslint',
-  \ 'coc-tslint-plugin',
   \ 'coc-eslint',
   \ 'coc-prettier',
   \ 'coc-css',
   \ 'coc-pyls',
   \ 'coc-yaml',
   \ 'coc-pyright',
+  \ 'coc-vetur',
   \ ]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -588,7 +592,3 @@ autocmd FileType c,cpp,java set matchpairs+==:;
 
 "----END: Other Config-------------------------------
 
-"let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-"let &t_SR = "\<Esc>]50;CursorShape=2\x7"
-"let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-"to change the cusors for command mode and insert mode
