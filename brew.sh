@@ -3,11 +3,12 @@
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
 brew cask install font-source-code-pro
+brew cask install font-source-hack-nerd-font
 #!/usr/bin/env bash
 
 # Install Brew Packages
 brew install python
-brew install tree
+#brew install tree
 #brew install ffmpeg
 #brew install midnight-commander
 brew install wifi-password
@@ -15,7 +16,7 @@ brew install htop
 brew install wget
 brew install youtube-dl
 brew install bash-completion
-#brew install macvim
+brew install neovim
 brew install speedtest-cli
 # Install MacOS Applications
 brew cask install google-chrome
@@ -26,6 +27,7 @@ brew cask install skype
 #brew cask install vlc
 brew cask install whatsapp
 brew cask install calibre
+brew cask install adobe-acrobat-reader
 #brew cask install texmaker
 brew cask install atom
 #brew cask install dropbox
@@ -34,7 +36,7 @@ brew cask install visual-studio-code
 #brew cask install pycharm-ce
 brew cask install spectacle
 brew cask install kindle
-brew cask install texstudio
+#brew cask install texstudio
 #brew cask install github
 brew cask install alfred
 #brew cask install zotero
@@ -42,6 +44,7 @@ brew cask install alfred
 brew cask install teamviewer
 brew cask install anaconda
 brew cask install mactex-no-gui
+brew cask install db-browser-for-sqlite
 #brew cask install sourcetree
 #brew cask install spotify
 #brew cask install discord
@@ -72,5 +75,11 @@ brew install xquartz
 brew install fugu
 brew install ctags
 brew install bat
+brew install composer
+brew install gatsby-cli
+brew install mysql
+brew install phpmyadmin
+brew install ranger
+
 
 

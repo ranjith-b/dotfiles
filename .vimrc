@@ -88,6 +88,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jparise/vim-graphql'        
 " GraphQL syntax
 
+Plug 'norcalli/nvim-colorizer.lua'
+"color highlighter for Neovim
+
 call plug#end()
 
 "-------------END: PLUGINS---------------------------------
@@ -591,4 +594,4 @@ autocmd FileType c,cpp,java set matchpairs+==:;
 "showmatch for '=' & ';' in assignment for C and Java
 
 "----END: Other Config-------------------------------
-
+"lua require'colorizer'.setup()
