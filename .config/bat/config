@@ -25,7 +25,7 @@
 #--map-syntax ".ignore:Git Ignore"
 #
 # Set the theme to "TwoDark"
---theme="base16"
+--theme="Godavari"
 
 # Show line numbers, Git modifications and file header (but no grid)
 --style="numbers,changes,header"

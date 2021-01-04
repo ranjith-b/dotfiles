@@ -1,5 +1,5 @@
 " Author:               Ranjith
-" Last Modified:        7-Dec-2020
+" Last Modified:        01-Jan-2021
 " Local Path:           ~/.vimrc
 " Latest Copy At:       https://github.com/ranjith-b/dotfiles
 " License:              Public Domain (PD)
@@ -90,6 +90,8 @@ Plug 'jparise/vim-graphql'
 
 Plug 'norcalli/nvim-colorizer.lua'
 "color highlighter for Neovim
+
+Plug 'chriskempson/base16-vim'
 
 call plug#end()
 
@@ -551,6 +553,9 @@ omap af <Plug>(coc-funcobj-a)
 let g:airline#extensions#tabline#enabled = 1
 " coc config
 
+let g:airline_theme='tomorrow'
+"airline theme
+
 let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
@@ -574,8 +579,8 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 "-----------end COC----------------------------""
 
 "----Other Config-------------------------------
-colorscheme Tomorrow-Night-Bright
 
+colorscheme Godavari
 
 syntax on		          
 "gimme some colors, start with 2

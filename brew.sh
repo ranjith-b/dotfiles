@@ -2,8 +2,8 @@
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
-brew cask install font-source-code-pro
-brew cask install font-source-hack-nerd-font
+brew install --cask font-source-code-pro
+brew install --cask font-source-hack-nerd-font
 #!/usr/bin/env bash
 
 # Install Brew Packages
@@ -19,41 +19,41 @@ brew install bash-completion
 brew install neovim
 brew install speedtest-cli
 # Install MacOS Applications
-brew cask install google-chrome
-brew cask install firefox
-#brew cask install virtualbox
-brew cask install skype
-#brew cask install gimp
-#brew cask install vlc
-brew cask install whatsapp
-brew cask install calibre
-brew cask install adobe-acrobat-reader
-#brew cask install texmaker
-brew cask install atom
-#brew cask install dropbox
-brew cask install iterm2
-brew cask install visual-studio-code
-#brew cask install pycharm-ce
-brew cask install spectacle
-brew cask install kindle
-#brew cask install texstudio
-#brew cask install github
-brew cask install alfred
-#brew cask install zotero
-#brew cask install onedrive
-brew cask install teamviewer
-brew cask install anaconda
-brew cask install mactex-no-gui
-brew cask install db-browser-for-sqlite
-#brew cask install sourcetree
-#brew cask install spotify
-#brew cask install discord
-#brew cask install google-backup-and-sync
+brew install --cask google-chrome
+brew install --cask firefox
+#brew install --cask virtualbox
+brew install --cask skype
+#brew install --cask gimp
+#brew install --cask vlc
+brew install --cask whatsapp
+brew install --cask calibre
+brew install --cask adobe-acrobat-reader
+#brew install --cask texmaker
+brew install --cask atom
+#brew install --cask dropbox
+brew install --cask iterm2
+brew install --cask visual-studio-code
+#brew install --cask pycharm-ce
+brew install --cask spectacle
+brew install --cask kindle
+#brew install --cask texstudio
+#brew install --cask github
+brew install --cask alfred
+#brew install --cask zotero
+#brew install --cask onedrive
+brew install --cask teamviewer
+brew install --cask anaconda
+brew install --cask mactex-no-gui
+brew install --cask db-browser-for-sqlite
+#brew install --cask sourcetree
+#brew install --cask spotify
+#brew install --cask discord
+#brew install --cask google-backup-and-sync
 #brew install archey
-#brew cask install sublime-text
-#brew cask install copyclip
-#brew cask install hyperdock
-#brew cask install divvy
+#brew install --cask sublime-text
+#brew install --cask copyclip
+#brew install --cask hyperdock
+#brew install --cask divvy
 
 #Notes:lipika keyboard for telugu
 #vanilla
@@ -64,13 +64,13 @@ brew install tmux
 brew install node
 brew install asciinema
 brew install gnuplot
-brew cask install docker
-brew cask install font-hack-nerd-font
-brew cask install fugu
-brew cask install android-studio
-brew cask install zoomus
-brew cask install ghdl
-brew cask install gtkwave
+brew install --cask docker
+brew install --cask font-hack-nerd-font
+brew install --cask fugu
+brew install --cask android-studio
+brew install --cask zoomus
+brew install --cask ghdl
+brew install --cask gtkwave
 brew install xquartz
 brew install fugu
 brew install ctags
@@ -80,6 +80,7 @@ brew install gatsby-cli
 brew install mysql
 brew install phpmyadmin
 brew install ranger
-
+brew install svn
+brew install nodeenv
 
 
