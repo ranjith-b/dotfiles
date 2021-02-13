@@ -23,6 +23,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 #brew install --cask virtualbox
 brew install --cask skype
+brew install angular-cli
 #brew install --cask gimp
 #brew install --cask vlc
 brew install --cask whatsapp

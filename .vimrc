@@ -93,6 +93,8 @@ Plug 'norcalli/nvim-colorizer.lua'
 
 Plug 'chriskempson/base16-vim'
 
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+
 call plug#end()
 
 "-------------END: PLUGINS---------------------------------
@@ -100,6 +102,8 @@ call plug#end()
 
 "---settings-----------------------------------
 set nocompatible
+
+set termguicolors
 
 set hidden
 " Required to keep multiple buffers open multiple buffers"

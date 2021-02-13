@@ -12,7 +12,8 @@ alias python="python3"
 alias pip="pip3"
 # Get week number
 alias week='date +%V'
-alias ifw="cd ~/Onedrive/IFW"
+alias vi='nvim'
+alias vim='nvim'
 alias gtkwave='/Applications/gtkwave.app/Contents/Resources/bin/gtkwave'
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
