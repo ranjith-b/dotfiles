@@ -30,3 +30,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Case insensitive tab completion in Bash
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
